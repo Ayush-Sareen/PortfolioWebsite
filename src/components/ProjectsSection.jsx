@@ -3,32 +3,38 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "MemoVista",
+    description: "A Virtual Memory Management Simulator built using React , Tailwind and Flask.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "Flask"],
+    githubUrl: "https://github.com/Ayush-Sareen/MemoVista.git",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "NewsVerse",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A News visualization dashboard that provides real-time insights into global news trends along with integrated Live Chatbot.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["HTML", "CSS", "JavaScript", "Gemini API"],
+    githubUrl: "https://github.com/Ayush-Sareen/NewsVerse.git",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "PassOP",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full-featured Password Manager with Options to add ,delete ,edit Passwords.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Express", "MongoDB", "TailwindCSS"],
+    githubUrl: "https://github.com/Ayush-Sareen/Pass-OP.git",
+  },
+  {
+    id: 4,
+    title: "GlyphAI",
+    description:
+      "A Handwriting Recognition Application that uses Convolutional Neural Networks to recognize handwritten characters.",
+    image: "/projects/project4.png",
+    tags: ["Machine Learning", "CNN", "Deep Learning"],
+    githubUrl: "https://github.com/Ayush-Sareen/GlyphAI.git",
   },
 ];
 
@@ -69,19 +75,12 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
+                <h3 className="text-xl font-semibold mb-1 text-primary"> {project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Ayush-Sareen"
           >
             Check My Github <ArrowRight size={16} />
           </a>
