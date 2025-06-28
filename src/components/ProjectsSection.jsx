@@ -36,6 +36,15 @@ const projects = [
     tags: ["Machine Learning", "CNN", "Deep Learning"],
     githubUrl: "https://github.com/Ayush-Sareen/GlyphAI.git",
   },
+   {
+    id: 5,
+    title: "HotelGuest-Pro",
+    description:
+      "Built HotelGuest-Pro, a full-stack platform for hotel owners to manage guest records with secure login, Cloudinary image uploads, and Excel export functionality.",
+    image: "/projects/project5.png",
+    tags: ["React", "Node.js", "MongoDB", "TailwindCSS"],
+    githubUrl: "https://github.com/Ayush-Sareen/HotelGuest-Pro.git",
+  },
 ];
 
 export const ProjectsSection = () => {
