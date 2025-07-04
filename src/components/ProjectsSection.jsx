@@ -3,12 +3,14 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "MemoVista",
-    description: "A Virtual Memory Management Simulator built using React , Tailwind and Flask.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Flask"],
-    githubUrl: "https://github.com/Ayush-Sareen/MemoVista.git",
+    title: "BlogNest",
+    description:
+      "A Full-stack Blog Website where  Admin can create, update, or delete posts, while all other users can view posts publicly",
+    image: "/projects/project6.png",
+    tags: ["React", "Node.js", "MongoDB", "TailwindCSS", "Express"],
+    githubUrl: "https://github.com/Ayush-Sareen/BlogNest.git",
   },
+  
   {
     id: 2,
     title: "NewsVerse",
@@ -29,6 +31,14 @@ const projects = [
   },
   {
     id: 4,
+    title: "MemoVista",
+    description: "A Virtual Memory Management Simulator built using React , Tailwind and Flask.",
+    image: "/projects/project1.png",
+    tags: ["React", "TailwindCSS", "Flask"],
+    githubUrl: "https://github.com/Ayush-Sareen/MemoVista.git",
+  },
+  {
+    id: 5,
     title: "GlyphAI",
     description:
       "A Handwriting Recognition Application that uses Convolutional Neural Networks to recognize handwritten characters.",
@@ -36,15 +46,16 @@ const projects = [
     tags: ["Machine Learning", "CNN", "Deep Learning"],
     githubUrl: "https://github.com/Ayush-Sareen/GlyphAI.git",
   },
-   {
-    id: 5,
+  {
+    id: 6,
     title: "HotelGuest-Pro",
     description:
-      "Built HotelGuest-Pro, a full-stack platform for hotel owners to manage guest records with secure login, Cloudinary image uploads, and Excel export functionality.",
+      "A full-stack platform for hotel owners to manage guest records with secure login, Cloudinary image uploads, and Excel export functionality.",
     image: "/projects/project5.png",
     tags: ["React", "Node.js", "MongoDB", "TailwindCSS"],
     githubUrl: "https://github.com/Ayush-Sareen/HotelGuest-Pro.git",
   },
+   
 ];
 
 export const ProjectsSection = () => {
