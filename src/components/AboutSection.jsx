@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              Aspiring web developer skilled in front-end technologies, with a growing interest in machine learning and data-driven solutions.
+              Aspiring Full stack web developer skilled in Web technologies, with a growing interest in machine learning and data-driven solutions.
             </p>
 
             <p className="text-muted-foreground">

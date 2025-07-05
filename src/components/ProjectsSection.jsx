@@ -95,7 +95,7 @@ export const ProjectsSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semibold mb-1 text-primary"> {project.title}</h3>
+                <h3 className="text-xl font-semibold mb-1 text-primary"><a href={project.githubUrl} target="_blank" className="hover:underline">{project.title}</a></h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
