@@ -78,7 +78,7 @@ export const HeroSection = () => {
 
           {/* Paragraph (static) */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            I create engaging web experiences using modern front-end technologies, and I also work on machine learning projects that solve real-world problems through data.
+           I create engaging web experiences as a full-stack developer using modern technologies across the front and back end, and I also work on machine learning projects that solve real-world problems through data.
           </p>
 
           {/* Button */}
